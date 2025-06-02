@@ -39,7 +39,7 @@ public class leavetest  {
 	  Thread.sleep(4000);
 	  driver.findElement(By.xpath("//input[@id='password']")).sendKeys(Pwd);
 	  driver.findElement(By.xpath("//input[@type='submit']")).click();
-		
+	 System.out.println("HRM");
 		
 	//WebDrivver Utility
 		WebElement element=driver.findElement(By.xpath("//a[text()='Leave Type']"));
